@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    width: 100%;
+    height: 10vh;
+    background-color: #000;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+}
+
+/* Navigation section 1 */
+.nav1 {
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.nav1 .fa-solid {
+    font-size: 2vw;
+    color: white;
+}
+
+.nav1 div img {
+    width: 9vw;
+    height: 10vh;
+    margin-left: 7px;
+
+}
+
+/* Navigation section 2 */
+.nav2 {
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.nav2 div {
+    display: flex;
+    align-items: center;
+}
+
+.nav2 .searchbar input {
+    width: 19vw;
+    height: 5vh;
+    border-radius: 19px;
+    outline: blue;
+    padding-left: 7px;
+    font-size: large;
+
+}
+
+.fa-solid,
+.fa-regular {
+    font-size: 25px;
+    margin-left: 4px;
+    color: aliceblue;
+}
+
+
+
+/* Navigation section 3 */
+.nav3 {
+    margin-right: 20px;
+}
+
+.nav3 .icons {
+    margin-right: 20px;
+    width: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Body-Section */
+/* Aside */
+section {
+    width: 100%;
+    height: 166vh;
+    display: flex;
+    padding-top: 4.4rem;
+}
+
+section aside {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #000;
+    padding: 30px;
+    position: fixed;
+    height: 100vh;
+
+}
+
+section aside p {
+    font-family: "Roboto", "Arial", sans-serif;
+    color: aliceblue;
+    font-weight: 500;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+section aside a {
+    margin-top: 12px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-family: "Roboto", "Arial", sans-serif;
+}
+
+section aside a h2 {
+    margin-left: 20px;
+    color: aliceblue;
+    font-size: small;
+}
+
+.fa-solid {
+    font-size: large;
+}
+
+
+/* SecondHeader-Section */
+.content {
+    display: flex;
+    flex: 7;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+    margin-left: 12%;
+    background-color: #000;
+
+}
+
+
+.secondBar {
+    background-color: #000;
+    width: 100%;
+    height: 6vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    position: fixed;
+}
+
+section .content,
+.secondBar button {
+    min-width: 2vw;
+    background-color: rgb(56, 56, 56);
+    font-family: "Roboto", "Arial", sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+section .content,
+.secondBar button:hover {
+    min-width: 2vw;
+    background-color: rgb(83, 83, 83);
+    font-family: "Roboto", "Arial", sans-serif;
+    color: aliceblue;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.media {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+
+}
+
+.row {
+    width: 100%;
+    height: 100%;
+    padding-top: 14px;
+    background-color: #000;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Card */
+
+.card {
+    width: 18.6vw;
+    height: 38vh;
+    color: aliceblue;
+    background-color: #000;
+    font-family: "Roboto", "Arial", sans-serif;
+    border-radius: 10px;
+    margin-left: 21px;
+}
+
+.card img {
+    width: 100%;
+    height: 22vh;
+    border-radius: 10px;
+}
+
+.profilDescri {
+    margin-top: 4px;
+    margin-left: 10px;
+    width: 80%;
+    height: 7vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profilDescri img {
+    width: 30px;
+    height: 30px;
+}
+
+.profilDescri p {
+    margin-left: 12px;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.ppp p {
+    letter-spacing: -0px;
+}
+
+.lit {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-top: -3px;
+    color: rgb(131, 131, 131);
+}
+
+.lit div {
+    margin-top: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.lit div h5 {
+    letter-spacing: -0px;
+}
+
+.lit div .yrs {
+    margin-left: 7px;
+}
